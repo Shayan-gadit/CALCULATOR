@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #000000;
+    color: #fff;
+}
+.containers{
+
+    align-items: center;
+    justify-content: center;
+    display: block;
+
+}
+.watch{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    
+    
+}
+h1{
+    margin: 50px;
+   
+}
+
+.button{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    margin-top: -50px;
+    color: #000!important;
+
+    
+}
+.btn:hover{
+    color: #000 !important;
+}
+
+.stop{
+    text-align: center;
+    color: #fff;
+    font-family: 'Dancing Script';
+    font-size: 75px;
+    
+}
+.stops{
+    text-align: center;
+    color: #fff;
+    font-family: 'Dancing Script';
+    font-size: 75px;
+   
+}
+.stop_watch{
+   
+  text-align: center;
+  margin-top:50px ;
+}
+
+ 
+ 

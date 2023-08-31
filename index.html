@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- bootstraplink -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+        <!-- googleFontlink -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+<!-- style.css -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- STOP WATCH  -->
+    <h1 class="stop">STOP WATCH </h1>
+    <div class="stop_watch">
+       <h1>Hours &nbsp;Minutes &nbsp; Seconds</h1>
+    </div>
+    <div class="containers">
+        <div class="watch">
+            <h1 id="mints"> 00</h1>
+            <h1 id="sec">00</h1>
+            <h1 id="ms">00</h1>
+           
+
+        </div>
+        <div class="button">
+            <button class="btn btn-light m-4 text-dark"  onclick="start()" id="playbtn">Start</button>
+            <button class="btn btn-light m-4 text-dark"onclick="stop()" id="stopbtn">Stop</button>
+            <button class="btn btn-light m-4 text-dark" onclick="resetTime()" id="resetbtn">Reset</button>
+        </div>
+
+        <h1 class="stops">THE END</h1>
+
+       <!-- stop Watch end -->
+      
+
+    <script src="app.js"></script>
+
+</body>
+
+</html>
